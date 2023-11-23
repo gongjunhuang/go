@@ -1,8 +1,11 @@
-module github.com/gongjunhuang/go.git
+module github.com/gongjunhuang/go
 
 go 1.21.3
 
-require github.com/lib/pq v1.10.9
+require (
+	github.com/lib/pq v1.10.9
+	github.com/techschool/simplebank v0.0.0-20231029084543-9544012aa580
+)
 
 require (
 	github.com/aead/chacha20 v0.0.0-20180709150244-8b13a72661da // indirect
@@ -56,7 +59,6 @@ require (
 	github.com/stretchr/objx v0.5.0 // indirect
 	github.com/stretchr/testify v1.8.4 // indirect
 	github.com/subosito/gotenv v1.2.0 // indirect
-	github.com/techschool/simplebank v0.0.0-20231029084543-9544012aa580 // indirect
 	github.com/ugorji/go/codec v1.2.7 // indirect
 	go.uber.org/atomic v1.6.0 // indirect
 	golang.org/x/crypto v0.6.0 // indirect
